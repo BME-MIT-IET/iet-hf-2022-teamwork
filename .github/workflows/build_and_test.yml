@@ -27,9 +27,4 @@ jobs:
     - name: Build with Gradle
       uses: gradle/gradle-build-action@0d13054264b0bb894ded474f08ebb30921341cee
       with:
-        arguments: jar
-    - name: Release
-      uses: softprops/action-gh-release@v1
-      if: startsWith(github.ref, 'refs/tags/')
-      with:
-        files: build/libs/iet-hf-2022-teamwork-2.0.1-SNAPSHOT.jar
+        arguments: test
