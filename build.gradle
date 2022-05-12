@@ -1,6 +1,17 @@
-apply plugin: "idea"
-apply plugin: "java"
-apply plugin: "maven"
+plugins {
+	id "idea"
+	id "java"
+	id "maven"
+	id "org.sonarqube" version "3.3"
+}
+
+sonarqube {
+	properties {
+		property "sonar.projectKey", "BME-MIT-IET_iet-hf-2022-teamwork"
+		property "sonar.organization", "bme-mit-iet-org"
+		property "sonar.host.url", "https://sonarcloud.io"
+	}
+}
 
 sourceSets {
 	main {
