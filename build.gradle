@@ -68,7 +68,7 @@ dependencies {
 
 	compile "org.slf4j:slf4j-api:1.7.7"
 	compile "org.slf4j:slf4j-jdk14:1.7.7"
-
+	implementation 'com.google.code.gson:gson:2.8.9'
 	testCompile 'junit:junit:4.11'
 }
 
