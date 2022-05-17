@@ -5,6 +5,17 @@ public class Person implements Serializable {
     private int age;
 	private String name;
 
+    public Person(String name, int age){
+        this.name = name ;
+        this.age = age;
+    }
+
+    public Person(String name){
+        this.name = name ;
+        this.age = 0;
+    }
+
+
 	public int getAge() {
 		return age;
 	}
