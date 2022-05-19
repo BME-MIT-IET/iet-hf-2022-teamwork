@@ -2,7 +2,7 @@
 
 A manuális kód átvizsgálás során a csapat nem talált hibát.
 
-A munkát a Haragos Gergely Viktor, Kalics Ádám, Kiss Mária Dominika, Pethes Dániel Imre
+A munkát a Haragos Gergely Viktor, Kalics Ádám, Kiss Mária Dominika és Pethes Dániel Imre végezték
 
 # Sonarcloud integráció
 
