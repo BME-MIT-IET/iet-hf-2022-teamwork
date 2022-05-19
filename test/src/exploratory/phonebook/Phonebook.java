@@ -3,6 +3,7 @@ package exploratory.phonebook;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Random;
 
 public class Phonebook {
     private List<Person> people = new ArrayList<>();
@@ -84,6 +85,35 @@ public class Phonebook {
         people.add(person1);
         people.add(person2);
     }
+
+    public void initForStress(int bound, boolean oneWayDependency) {
+        people = new ArrayList<>();
+
+        for(int i = 0; i < bound; i++) {
+            Person person = new Person();
+            person.setName("person" + i);
+
+            Address address = new Address((String.valueOf(i)), "Country" + i, "City" + i, "Street" + i, "num" + i);
+            person.setAddress(address);
+
+            for(int j = 0; j < 10; j++) {
+                PhoneNumber phoneNumber = new PhoneNumber();
+                phoneNumber.setNumber(i + "#" + j);
+                phoneNumber.setPhoneType(PhoneNumber.PhoneType.MOBILE);
+
+                person.getPhoneNumbers().add(phoneNumber);
+            }
+
+
+            if(oneWayDependency && i > 0) {
+                person.getRelations().add(new Relation(Relation.RelationType.SON, people.get(i - 1)));
+            }
+
+            people.add(person);
+        }
+    }
+
+
 
     @Override
     public boolean equals(Object o) {
