@@ -8,6 +8,8 @@ A munkát a Haragos Gergely Viktor, Kalics Ádám, Kiss Mária Dominika és Peth
 
 A projektet GitHub Actions segítségével összekötöttük a Sonarcloud felülettel. A workflow a sonarcube.yml fájlban található.
 
+![](img2.png)
+
 A Sonarcloud 2 Bug-ot talált, az egyik a Java Regex compilation-nel kapcsolatos, ebben a csapat megállapodott, hogy nem javítjuk.
 
 A másik egy NullPointerException, mely valójában a paraméterek null létéből adódik így IllegalArgumentException dobása lenne a helyes lekezelése. A csapat nem jutott egyhangú közös döntésre az ügyben, azonban egy issue-t létrehoztunk rá a GitHub felületen is.
