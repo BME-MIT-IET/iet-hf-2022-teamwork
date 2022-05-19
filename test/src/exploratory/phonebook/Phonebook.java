@@ -1,11 +1,12 @@
 package exploratory.phonebook;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.Random;
 
-public class Phonebook {
+public class Phonebook implements Serializable {
     private List<Person> people = new ArrayList<>();
 
     public List<Person> getPeople() {

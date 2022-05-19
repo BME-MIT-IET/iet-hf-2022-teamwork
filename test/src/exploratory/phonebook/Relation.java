@@ -1,8 +1,9 @@
 package exploratory.phonebook;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Relation {
+public class Relation implements Serializable{
 
     @Override
     public boolean equals(Object o) {

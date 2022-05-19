@@ -1,8 +1,9 @@
 package exploratory.phonebook;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class PhoneNumber {
+public class PhoneNumber implements Serializable {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
