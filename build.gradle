@@ -72,7 +72,11 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-rio-api
 	implementation 'org.eclipse.rdf4j:rdf4j-rio-api:4.0.1'
 
-	implementation 'com.google.code.gson:gson:2.8.9'
+	implementation 'com.google.code.gson:gson:2.9.0'
+
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
+	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.3'
+
 	testCompile 'junit:junit:4.11'
 }
 
