@@ -8,4 +8,4 @@ Ezek mind a Pinto képességét tesztelik a lineáris és ciklikus kapcsolatok s
 
 Az eredmények a wiki-ben az "Exploratory testing" oldalon találhatóak.
 
-A munkát Kalics Ádám, Kiss Mária Dominika és Pethes Dániel Imre végezték.
+A munkát Haragos Gergő Viktor, Kalics Ádám, Kiss Mária Dominika és Pethes Dániel Imre végezték.
