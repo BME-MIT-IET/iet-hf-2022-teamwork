@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685b81c7-2109-4ffe-aaa6-7de084617f24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/resources/out/phonebook.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/exploratory/phonebook/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/exploratory/phonebook/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/exploratory/phonebook/PhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/exploratory/phonebook/Phonebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/exploratory/phonebook/PhonebookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/exploratory/phonebook/Relation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/resources/out/phonebook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/resources/out/phonebook.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/exploratory/phonebook/PhonebookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/exploratory/phonebook/PhonebookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +32,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="iet-hf-2022-teamwork" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="iet-hf-2022-teamwork" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="iet-hf-2022-teamwork" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -77,9 +85,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Ádi/DOKUMENTUMOK/A SULI/3. BME/6. Félév/Integrációs és ellenörzési technikák/Házi Feladat/iet-hf-2022-teamwork/test/src/exploratory",
+    "last_opened_file_path": "C:/Users/Kalics Ádám/Desktop/átlag/Dani Credit Calculator",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.language"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -87,7 +98,7 @@
       <recent name="E:\Ádi\DOKUMENTUMOK\A SULI\3. BME\6. Félév\Integrációs és ellenörzési technikák\Házi Feladat\iet-hf-2022-teamwork\test\src\exploratory" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PhonebookTest">
+  <component name="RunManager" selected="Gradle.PhonebookTest.RDFSerializeNoCircularDependency (1)">
     <configuration name="PhonebookTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -111,30 +122,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PhonebookTest.RDFSerialize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;exploratory.phonebook.PhonebookTest.RDFSerialize&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PhonebookTest.RDFSerializeNoCircularDependency" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PhonebookTest.RDFSerializeNoCircularDependency (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -180,12 +168,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="iet-hf-2022-teamwork [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="iet-hf-2022-teamwork [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--debug" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -216,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PhonebookTest.RDFSerializeNoCircularDependency (1)" />
+        <item itemvalue="Gradle.iet-hf-2022-teamwork [assemble]" />
+        <item itemvalue="Gradle.iet-hf-2022-teamwork [jar]" />
         <item itemvalue="Gradle.PhonebookTest" />
         <item itemvalue="Gradle.PhonebookTest.RDFSerializeWithCircularDependency" />
-        <item itemvalue="Gradle.PhonebookTest.RDFSerializeNoCircularDependency" />
-        <item itemvalue="Gradle.PhonebookTest.RDFSerialize" />
-        <item itemvalue="Gradle.iet-hf-2022-teamwork [jar]" />
       </list>
     </recent_temporary>
   </component>

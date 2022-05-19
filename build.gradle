@@ -69,6 +69,10 @@ dependencies {
 	compile "org.slf4j:slf4j-api:1.7.7"
 	compile "org.slf4j:slf4j-jdk14:1.7.7"
 
+	// https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-rio-api
+	implementation 'org.eclipse.rdf4j:rdf4j-rio-api:4.0.1'
+
+
 	testCompile 'junit:junit:4.11'
 }
 
