@@ -1,26 +1,16 @@
 package exploratory.employee;
 import java.io.Serializable;
-public class Customer implements Serializable {
+public class Customer extends Person implements Serializable {
 
-    private long id;
-    private volatile String name;
+    public Customer(String name) {
+        super(name);
+    }
+
+    public Customer(String name, int age ) {
+        super(name, age);
+    }
+
     private Address address;
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public Address getAddress() {
         return address;

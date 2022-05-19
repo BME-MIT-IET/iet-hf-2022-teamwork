@@ -8,6 +8,15 @@ public class Address implements Serializable{
     private String Street;
     private int Number;
 
+    public Address( String city, int code,String street, int number ){
+            this.City = city;
+            this.Number = number;
+            this.PostCode = code;
+            this.Street = street;
+    }
+
+    public Address(){}
+
     public int getNumber(){
         return Number;
     }

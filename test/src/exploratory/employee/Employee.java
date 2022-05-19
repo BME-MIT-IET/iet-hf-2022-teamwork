@@ -6,18 +6,32 @@ import java.io.IOException;
 import java.io.Serializable;
 
 
-public class Employee implements Serializable{
+public class Employee extends Person implements Serializable{
     private transient Address address;
-    private Person person;
-  
-    public void setPerson(Person p){
-      person = p;
+    private transient String email;
+
+    public Employee( String name, String email) {
+		super(name);
+        this.setEmail(email);
+	}
+
+    public Employee(String name, String email, Address address){
+            super(name);
+            this.setEmail(email);
+            this.address = address;
     }
+
   
-    public Person getPerson(){
-      return person; 
+    public String getEmail() {
+        return email;
     }
-  
+
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+
     public void setAddress(Address address){
       this.address = address;
   }
