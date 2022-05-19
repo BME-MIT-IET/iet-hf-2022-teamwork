@@ -24,7 +24,7 @@ public class PhonebookTest {
 
         Model graph = RDFMapper.create().writeValue(phonebook);
 
-        File file = new File("test/resources/out/phonebook.txt");
+        File file = new File("test/resources/out/phonebook-pinto.txt");
         file.createNewFile();
 
 
@@ -50,7 +50,7 @@ public class PhonebookTest {
         }
 
 
-        File file = new File("test/resources/out/phonebook.txt");
+        File file = new File("test/resources/out/phonebook-pinto.txt");
         file.createNewFile();
 
 
@@ -65,15 +65,15 @@ public class PhonebookTest {
 
 
     @Test
-    public void stressTest() throws IOException {
+    public void pintoStressTest() throws IOException {
         Phonebook phonebook = new Phonebook();
-        phonebook.initForStress(200, true);
+        phonebook.initForStress(20, true);
 
         Model graph = RDFMapper.create().writeValue(phonebook);
 
-        File file = new File("test/resources/out/phonebook.txt");
+        File file = new File("test/resources/out/phonebook-pinto.txt");
         file.createNewFile();
-        
+
         FileOutputStream fileOutputStream = new FileOutputStream(file);
 
         ModelIO.write(graph, fileOutputStream, RDFFormat.NTRIPLES);
