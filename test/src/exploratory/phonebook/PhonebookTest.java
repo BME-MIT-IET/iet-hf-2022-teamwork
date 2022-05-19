@@ -22,8 +22,6 @@ public class PhonebookTest {
         Phonebook phonebook = new Phonebook();
         phonebook.defInit();
 
-        //RDFMapper.builder().
-
         Model graph = RDFMapper.create().writeValue(phonebook);
 
         File file = new File("test/resources/out/phonebook.txt");
@@ -32,14 +30,8 @@ public class PhonebookTest {
 
         FileOutputStream fileOutputStream = new FileOutputStream(file);
 
-        /*PrintWriter p = new PrintWriter(fileOutputStream);
-
-        p.println(graph.toString());
-        p.flush();*/
 
         ModelIO.write(graph, fileOutputStream, RDFFormat.NTRIPLES);
-
-        //ModelIO.write(graph, fileOutputStream, RDFFormat.N3);
 
     }
 
@@ -69,5 +61,24 @@ public class PhonebookTest {
 
         p.println(graph.toString());
         p.flush();
+    }
+
+
+    @Test
+    public void stressTest() throws IOException {
+        Phonebook phonebook = new Phonebook();
+        phonebook.initForStress(200, true);
+
+
+        Model graph = RDFMapper.create().writeValue(phonebook);
+
+        File file = new File("test/resources/out/phonebook.txt");
+        file.createNewFile();
+
+
+        FileOutputStream fileOutputStream = new FileOutputStream(file);
+
+
+        ModelIO.write(graph, fileOutputStream, RDFFormat.NTRIPLES);
     }
 }

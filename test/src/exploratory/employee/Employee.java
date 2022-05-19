@@ -7,8 +7,8 @@ import java.io.Serializable;
 
 
 public class Employee extends Person implements Serializable{
-    private transient Address address;
-    private transient String email;
+    private Address address;
+    private String email;
 
     public Employee( String name, String email) {
 		super(name);

@@ -3,11 +3,33 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="685b81c7-2109-4ffe-aaa6-7de084617f24" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/resources/out/phonebook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/resources/out/phonebook.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/exploratory/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/exploratory/employee/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/exploratory/employee/EmployeeTestJDK.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/exploratory/employee/EmployeeTestJDK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/exploratory/employee/PersonBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/exploratory/employee/EmployeeBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/exploratory/phonebook/Phonebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/exploratory/phonebook/Phonebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/exploratory/phonebook/PhonebookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/exploratory/phonebook/PhonebookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,24 +104,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Kalics Ádám/Desktop/átlag/Dani Credit Calculator",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Ádi\DOKUMENTUMOK\A SULI\3. BME\6. Félév\Integrációs és ellenörzési technikák\Házi Feladat\iet-hf-2022-teamwork\test\src\exploratory" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PhonebookTest.RDFSerializeNoCircularDependency (1)">
-    <configuration name="PhonebookTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PhonebookTest.stress">
+    <configuration name="EmployeeTestJDK.pintoSerializationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +130,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;exploratory.phonebook.PhonebookTest&quot;" />
+            <option value="&quot;exploratory.employee.EmployeeTestJDK.pintoSerializationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -140,12 +158,12 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PhonebookTest.RDFSerializeWithCircularDependency" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PhonebookTest.stress" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -158,7 +176,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;exploratory.phonebook.PhonebookTest.RDFSerializeWithCircularDependency&quot;" />
+            <option value="&quot;exploratory.phonebook.PhonebookTest.stress&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -225,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PhonebookTest.stress" />
+        <item itemvalue="Gradle.EmployeeTestJDK.pintoSerializationTest" />
         <item itemvalue="Gradle.PhonebookTest.RDFSerializeNoCircularDependency (1)" />
-        <item itemvalue="Gradle.iet-hf-2022-teamwork [assemble]" />
         <item itemvalue="Gradle.iet-hf-2022-teamwork [jar]" />
-        <item itemvalue="Gradle.PhonebookTest" />
-        <item itemvalue="Gradle.PhonebookTest.RDFSerializeWithCircularDependency" />
+        <item itemvalue="Gradle.iet-hf-2022-teamwork [assemble]" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +262,7 @@
       <workItem from="1652285099590" duration="388000" />
       <workItem from="1652285758294" duration="1538000" />
       <workItem from="1652779421095" duration="10050000" />
+      <workItem from="1652964638825" duration="314000" />
     </task>
     <servers />
   </component>
