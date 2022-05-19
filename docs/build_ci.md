@@ -4,5 +4,7 @@ A projekt egy régi 2.x-es Gradle verzióval érkezett, mely modern fejlesztői 
 A Gradle verzió fel lett frissítve 6.x-re, a build.gradle és gradle.properties fájlok módosításra kerültek eszerint.
 A munkát Pethes Dániel végezte.
 
+![](img1.png)
+
 Ezután beüzemeltük a GitHub Actions-t, mely gradle teszteket futtat, ezt a build_and_test.yml fájl tartalmazza.
 A munkát Pethes Dániel és Kalics Ádám végezte.
