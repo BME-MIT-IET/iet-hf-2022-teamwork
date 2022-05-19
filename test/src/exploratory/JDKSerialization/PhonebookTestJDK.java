@@ -1,7 +1,8 @@
-package exploratory.phonebook;
+package exploratory.JDKSerialization;
 
 import com.complexible.common.openrdf.model.ModelIO;
 import com.complexible.pinto.RDFMapper;
+import exploratory.phonebook.Phonebook;
 import org.junit.Test;
 import org.openrdf.model.Graph;
 import org.openrdf.model.Model;

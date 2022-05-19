@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685b81c7-2109-4ffe-aaa6-7de084617f24" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/resources/out/phonebook.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/exploratory/phonebook/PhonebookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/exploratory/phonebook/PhonebookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/exploratory/JacksonXMLComparison/JacksonXMLComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/exploratory/JacksonXMLComparison/JacksonXMLComparison.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
       <recent name="E:\Ádi\DOKUMENTUMOK\A SULI\3. BME\6. Félév\Integrációs és ellenörzési technikák\Házi Feladat\iet-hf-2022-teamwork\test\src\exploratory" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PhonebookTest.pintoStressTest">
+  <component name="RunManager" selected="Gradle.PhonebookTestJDK.RDFSerializeNoCircularDependency">
     <configuration name="EmployeeTestJDK.pintoSerializationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,6 +124,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;exploratory.employee.EmployeeTestJDK.pintoSerializationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PhonebookTestJDK.RDFSerializeNoCircularDependency" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;exploratory.phonebook.PhonebookTestJDK.RDFSerializeNoCircularDependency&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,27 +225,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="iet-hf-2022-teamwork [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--debug" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="iet-hf-2022-teamwork" />
       <method v="2">
@@ -240,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PhonebookTestJDK.RDFSerializeNoCircularDependency" />
         <item itemvalue="Gradle.PhonebookTest.pintoStressTest" />
         <item itemvalue="Gradle.PhonebookTest.stress" />
         <item itemvalue="Gradle.EmployeeTestJDK.pintoSerializationTest" />
         <item itemvalue="Gradle.PhonebookTest.RDFSerializeNoCircularDependency (1)" />
-        <item itemvalue="Gradle.iet-hf-2022-teamwork [jar]" />
       </list>
     </recent_temporary>
   </component>
