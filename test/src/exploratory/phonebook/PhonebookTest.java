@@ -69,15 +69,12 @@ public class PhonebookTest {
         Phonebook phonebook = new Phonebook();
         phonebook.initForStress(200, true);
 
-
         Model graph = RDFMapper.create().writeValue(phonebook);
 
         File file = new File("test/resources/out/phonebook.txt");
         file.createNewFile();
-
-
+        
         FileOutputStream fileOutputStream = new FileOutputStream(file);
-
 
         ModelIO.write(graph, fileOutputStream, RDFFormat.NTRIPLES);
     }

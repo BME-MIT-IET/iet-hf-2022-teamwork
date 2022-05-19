@@ -89,8 +89,6 @@ public class Phonebook {
     public void initForStress(int bound, boolean oneWayDependency) {
         people = new ArrayList<>();
 
-        Random random = new Random();
-
         for(int i = 0; i < bound; i++) {
             Person person = new Person();
             person.setName("person" + i);
@@ -113,19 +111,6 @@ public class Phonebook {
 
             people.add(person);
         }
-
-
-
-        Person person1 = new Person();
-        person1.setName("person1");
-
-        Address address1 = new Address("2800", "Magyarország", "Tatabánya", "Mártírok útja", "36");
-        PhoneNumber phoneNumber11 = new PhoneNumber();
-        PhoneNumber phoneNumber12 = new PhoneNumber();
-        phoneNumber11.setNumber("+36202293152");
-        phoneNumber11.setPhoneType(PhoneNumber.PhoneType.MOBILE);
-        phoneNumber12.setNumber("+3634787730");
-        phoneNumber12.setPhoneType(PhoneNumber.PhoneType.HOME);
     }
 
 
