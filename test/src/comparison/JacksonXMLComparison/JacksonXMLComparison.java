@@ -1,4 +1,4 @@
-package exploratory.JacksonXMLComparison;
+package comparison.JacksonXMLComparison;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;

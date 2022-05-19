@@ -1,4 +1,4 @@
-package exploratory.GsonComparison;
+package comparison.GsonComparison;
 
 import com.complexible.pinto.RDFMapperTests;
 import com.google.common.collect.Lists;
